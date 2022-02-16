@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReactPersonalSite/static/css/main.42896853.css",
+    "main.js": "/ReactPersonalSite/static/js/main.5f13db50.js",
+    "static/js/787.736b7a33.chunk.js": "/ReactPersonalSite/static/js/787.736b7a33.chunk.js",
+    "index.html": "/ReactPersonalSite/index.html",
+    "main.42896853.css.map": "/ReactPersonalSite/static/css/main.42896853.css.map",
+    "main.5f13db50.js.map": "/ReactPersonalSite/static/js/main.5f13db50.js.map",
+    "787.736b7a33.chunk.js.map": "/ReactPersonalSite/static/js/787.736b7a33.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42896853.css",
+    "static/js/main.5f13db50.js"
+  ]
+}
