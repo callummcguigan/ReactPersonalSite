@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Nunito;
+    font-family: 'Raleway', sans-serif;
     background: #00416A;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #E4E5E6, #00416A);
@@ -49,14 +49,31 @@ html {
     color: slategray;
 }
 
+.linkProject {
+    padding: 25px;
+    text-decoration: none;
+    color:firebrick;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.linkProject:active,
+.linkProject:visited {
+    color: firebrick;
+}
+
+.linkProject:hover {
+    color: slategray;
+}
+
 .mainTop {
     display: flex;
     justify-content: center;
 }
 
 .welcome {
-    padding: 70px;
-    font-size: 25px;
+    padding-bottom: 10px;
+    font-size: 20px;
     text-align: center;
     width: 55%;
 }
@@ -77,8 +94,8 @@ html {
 }
 
 .techIcon {
-    height: 125px;
-    width: 125px;
+    height: 100px;
+    width: 100px;
     padding: 25px;
 }
 
@@ -90,6 +107,12 @@ html {
 
 .techDesc {
     font-weight: 800;
+}
+
+.projectIcon{
+    height: 400px;
+    width: 500px;
+    padding-bottom: 15px;
 }
 
 .footer {
@@ -104,7 +127,6 @@ html {
 .footerLink img {
     height: 25px;
     width: 25px;
-    padding: 10px;
 }
 
 .contactForm {
@@ -124,6 +146,11 @@ html {
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
 }
 
 .hidden {

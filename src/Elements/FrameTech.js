@@ -1,15 +1,19 @@
+import Physics from '../images/physics.png'
+import Nodejs from '../images/node-js.png'
+import Nextjs from '../images/Nextjs-logo.svg'
+
 function FrameTech() {
 
     const frames = [
         {
-            src: "physics.png",
+            src: Physics,
             title: "React"
         },
         {
-            src: "node-js.png",
+            src: Nodejs,
             title: "Node.js"
         },{
-            src: "Nextjs-logo.svg",
+            src: Nextjs,
             title: "Next.js"
         }
     ]

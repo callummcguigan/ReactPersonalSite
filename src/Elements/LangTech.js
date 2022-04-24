@@ -1,15 +1,19 @@
+import HTML from '../images/html-5.png'
+import CSS from '../images/css-file-format.png'
+import JS from '../images/js-file.png'
+
 function LangTech() {
 
     const langs = [
         {
-            src: "html-5.png",
+            src: HTML,
             title: "HTML"
         },
         {
-            src: "css-file-format.png",
+            src: CSS,
             title: "CSS"
         },{
-            src: "js-file.png",
+            src: JS,
             title: "JavaScript"
         }
     ]
