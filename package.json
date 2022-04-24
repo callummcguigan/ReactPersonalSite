@@ -1,7 +1,6 @@
 {
   "name": "reactsolotest",
   "version": "0.1.0",
-  "homepage": "https://callummcguigan.github.io/ReactPersonalSite",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.17.0",

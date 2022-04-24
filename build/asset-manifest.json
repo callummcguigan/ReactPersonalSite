@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/ReactPersonalSite/static/css/main.42896853.css",
-    "main.js": "/ReactPersonalSite/static/js/main.5f13db50.js",
-    "static/js/787.736b7a33.chunk.js": "/ReactPersonalSite/static/js/787.736b7a33.chunk.js",
-    "index.html": "/ReactPersonalSite/index.html",
-    "main.42896853.css.map": "/ReactPersonalSite/static/css/main.42896853.css.map",
-    "main.5f13db50.js.map": "/ReactPersonalSite/static/js/main.5f13db50.js.map",
-    "787.736b7a33.chunk.js.map": "/ReactPersonalSite/static/js/787.736b7a33.chunk.js.map"
+    "main.css": "/static/css/main.32eb6f14.css",
+    "main.js": "/static/js/main.9fe575ce.js",
+    "static/js/787.736b7a33.chunk.js": "/static/js/787.736b7a33.chunk.js",
+    "static/media/Weather.png": "/static/media/Weather.698bb0d3b971b90510d6.png",
+    "static/media/Blackjack.png": "/static/media/Blackjack.278385ea31d01d25c65c.png",
+    "static/media/Golf.png": "/static/media/Golf.216caeace5096b7af3b7.png",
+    "static/media/physics.png": "/static/media/physics.86c8d9eba03e29814d2a.png",
+    "static/media/Callum.png": "/static/media/Callum.bc9e3a8faa9aa2b724ff.png",
+    "static/media/node-js.png": "/static/media/node-js.e328955d6bbbf3ebc72b.png",
+    "static/media/github.png": "/static/media/github.44eee0c4a6c25b0d7347.png",
+    "static/media/css-file-format.png": "/static/media/css-file-format.8a98e1a196083da8ed17.png",
+    "static/media/html-5.png": "/static/media/html-5.b2db3a7f6897f0a6e75c.png",
+    "static/media/linkedin.png": "/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "static/media/js-file.png": "/static/media/js-file.6b8f1d21e031c402a65f.png",
+    "static/media/Nextjs-logo.svg": "/static/media/Nextjs-logo.2e296d8e8f5b961cea3781c0d5fcfaf6.svg",
+    "index.html": "/index.html",
+    "main.32eb6f14.css.map": "/static/css/main.32eb6f14.css.map",
+    "main.9fe575ce.js.map": "/static/js/main.9fe575ce.js.map",
+    "787.736b7a33.chunk.js.map": "/static/js/787.736b7a33.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42896853.css",
-    "static/js/main.5f13db50.js"
+    "static/css/main.32eb6f14.css",
+    "static/js/main.9fe575ce.js"
   ]
 }
