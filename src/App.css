@@ -122,10 +122,6 @@ html {
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
-    position:absolute;
-    left:0;
-    bottom:0;
-    right:0;
 }
 
 .footerLink img {
