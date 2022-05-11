@@ -25,7 +25,7 @@ function FrameTech() {
                     <p>Frameworks</p>
                 </div>
                 
-                    <div className="techs">
+                    <div className="iconContainer">
                         {frames.map( frame => {
                             return (
                             <div key={frame.title}>

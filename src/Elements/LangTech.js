@@ -25,7 +25,7 @@ function LangTech() {
                     <p>Languages</p>
                 </div>
                 
-                    <div className="techs">
+                    <div className="iconContainer">
                         {langs.map( lang => {
                             return (
                             <div key={lang.title}>

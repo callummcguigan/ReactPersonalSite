@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { useNavigate } from 'react-router-dom';
 import Modal from 'react-bootstrap/Modal'
@@ -14,7 +14,10 @@ function Form() {
 
     const [show, setShow] = useState(false);
 
-    const handleClose = () => setShow(false);
+    const handleClose = () => {
+        navigate("/");
+        setShow(false);
+    }
     const handleShow = () => setShow(true);
 
     const handleSubmit = (e) => {
@@ -27,7 +30,7 @@ function Form() {
         emailjs.sendForm('service_v6roc8j', 'template_nnhx78y', e.target, 'user_7R9pav1gNbaQcQhe4uF6J')
             .then((result) => {
                 handleShow(true)
-                //navigate("/");
+                
             }, (error) => {
                 console.log(error.text);
             });
@@ -37,7 +40,6 @@ function Form() {
     return (
         <div>
             <div className="contactForm" id="formLoad">
-                <h3>Contact Me!</h3>
                 <p>Send me an email and I will get back to you as soon as I can</p>
                 <form className="form" onSubmit={handleSubmit}>
                     <div className="col-3">
@@ -92,7 +94,7 @@ function Form() {
                 <Modal.Header closeButton>
                     <Modal.Title>Email Sent</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>Thanks for sending me an email, I will respond as soon as I can!</Modal.Body>
+                <Modal.Body><span className='modalText'>Thanks for sending me an email, I will respond as soon as I can!</span></Modal.Body>
                 <Modal.Footer>
                     <Button variant="primary" onClick={handleClose}>
                         Woohoo!

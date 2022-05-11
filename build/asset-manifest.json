@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.32eb6f14.css",
-    "main.js": "/static/js/main.9fe575ce.js",
+    "main.css": "/static/css/main.ed481472.css",
+    "main.js": "/static/js/main.14a5458d.js",
     "static/js/787.736b7a33.chunk.js": "/static/js/787.736b7a33.chunk.js",
     "static/media/Weather.png": "/static/media/Weather.698bb0d3b971b90510d6.png",
     "static/media/Blackjack.png": "/static/media/Blackjack.278385ea31d01d25c65c.png",
@@ -9,6 +9,7 @@
     "static/media/physics.png": "/static/media/physics.86c8d9eba03e29814d2a.png",
     "static/media/Callum.png": "/static/media/Callum.bc9e3a8faa9aa2b724ff.png",
     "static/media/node-js.png": "/static/media/node-js.e328955d6bbbf3ebc72b.png",
+    "static/media/Todo.png": "/static/media/Todo.1b9336426f2521ef81c3.png",
     "static/media/github.png": "/static/media/github.44eee0c4a6c25b0d7347.png",
     "static/media/css-file-format.png": "/static/media/css-file-format.8a98e1a196083da8ed17.png",
     "static/media/html-5.png": "/static/media/html-5.b2db3a7f6897f0a6e75c.png",
@@ -16,12 +17,12 @@
     "static/media/js-file.png": "/static/media/js-file.6b8f1d21e031c402a65f.png",
     "static/media/Nextjs-logo.svg": "/static/media/Nextjs-logo.2e296d8e8f5b961cea3781c0d5fcfaf6.svg",
     "index.html": "/index.html",
-    "main.32eb6f14.css.map": "/static/css/main.32eb6f14.css.map",
-    "main.9fe575ce.js.map": "/static/js/main.9fe575ce.js.map",
+    "main.ed481472.css.map": "/static/css/main.ed481472.css.map",
+    "main.14a5458d.js.map": "/static/js/main.14a5458d.js.map",
     "787.736b7a33.chunk.js.map": "/static/js/787.736b7a33.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32eb6f14.css",
-    "static/js/main.9fe575ce.js"
+    "static/css/main.ed481472.css",
+    "static/js/main.14a5458d.js"
   ]
 }

@@ -2,7 +2,7 @@ import ProjectsComp from "../Elements/ProjectsComp";
 
 function Projects(){
     return(
-        <div className="container">
+        <div className="container flexHeight">
             <ProjectsComp/>
         </div>
     )
