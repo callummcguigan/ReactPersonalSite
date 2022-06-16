@@ -2,6 +2,7 @@ import WeatherApp from '../images/Weather.png'
 import GolfApp from '../images/Golf.png'
 import Blackjack from '../images/Blackjack.png'
 import Todo from '../images/Todo.png'
+import Recipe from '../images/Recipe.png'
 
 function ProjectsComp() {
 
@@ -27,12 +28,13 @@ function ProjectsComp() {
     ]
 
     const projects2 = [
+        
         {
-            src: Blackjack,
-            title: "Blackjack Game",
-            desc: "One of my first solo projects, after creating a CLI blackjack game with Python, I created a web version using JavaScript.",
-            link: "https://callummcguigan.github.io/BlackJackGame/",
-            githubrepo: "https://github.com/callummcguigan/BlackJackGame"
+            src: Recipe,
+            title: "Recipe App",
+            desc: "An app idea I had in order to help me in real life. Allows the user to select meals that they would like to eat, and then generates a shopping list based off those selections. Users can add new meals, or choose from meals already uploaded. This app challenged me to take the ingredients for each meal and combine them into one object for output.",
+            link: "https://recipesapp-pi.vercel.app/",
+            githubrepo: "https://github.com/callummcguigan/ReactPersonalSite"
         },
         {
             src: Todo,
@@ -41,6 +43,16 @@ function ProjectsComp() {
             link: "https://todotypescript.vercel.app/",
             githubrepo: "https://github.com/callummcguigan/todotypescript"
         }
+    ]
+
+    const projects3 = [
+        {
+            src: Blackjack,
+            title: "Blackjack Game",
+            desc: "One of my first solo projects, after creating a CLI blackjack game with Python, I created a web version using JavaScript.",
+            link: "https://callummcguigan.github.io/BlackJackGame/",
+            githubrepo: "https://github.com/callummcguigan/BlackJackGame"
+        }        
     ]
 
     return(
@@ -61,6 +73,18 @@ function ProjectsComp() {
                     </div>
                     <div className="techs">
                         {projects2.map( project => {
+                            return (
+                            <div key={project.title}>
+                            <img src={project.src} alt="" className="projectIcon"  onClick={() => clickHandler(project.link)}/> 
+                            <h3 className="techDesc">{project.title}</h3>
+                            <p><a href={project.link} target="_blank" rel="noreferrer" className="linkProject">View Site</a> <a href={project.githubrepo} target="_blank" rel="noreferrer" className="linkProject">View GitHub Repo</a></p>
+                            <p>{project.desc}</p>
+                            </div>
+                            );
+                        })}
+                    </div>
+                    <div className="techs">
+                        {projects3.map( project => {
                             return (
                             <div key={project.title}>
                             <img src={project.src} alt="" className="projectIcon"  onClick={() => clickHandler(project.link)}/> 
